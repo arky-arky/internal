@@ -78,7 +78,7 @@ cheat.log("Hello world")
 Returns local player
 
 ```lua
-cheat.print("My name is: "..cheat.get_local().name")
+cheat.print("My name is: "..cheat.get_local().name)
 ```
 
 ## cheat.add_callback
