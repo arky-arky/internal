@@ -17,7 +17,7 @@
 
 ## Structs
 * [gamepacket](#gamepacket)
-
+* [netavatar](#netavatar)
 
 
 # Functions
