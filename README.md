@@ -11,6 +11,7 @@
 ### net
 * [send_packet](#netsend_packet)
 * [send_packet_raw](#netsend_packet_raw)
+* [send_varlist](#netsend_varlist)
 
 ### gui
 * [text](#guitext)
@@ -61,6 +62,19 @@ Send generic text packet
 cheat.log("Respawning in a second...")
 sleep(1000)
 net.send_packet(2, "action|respawn")
+```
+
+## net.send_varlist
+`void send_varlist(variantlist_t varlist)`
+
+Send varlist
+
+```lua
+varlist = {}
+varlist.netid = -1
+varlist[0] = "OnTextOverlay"
+varlist[1] = "gg varlist"
+net.send_varlist(varlist)
 ```
 
 ## cheat.log
